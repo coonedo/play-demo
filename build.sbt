@@ -11,3 +11,9 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins 		(DebianPlugin)
+maintainer		:= "Donal Cooney <donal.cooney@tecnotree.com>"
+packageSummary		:= "My Customer Package"
+packageDescription 	:= "Package"
+
